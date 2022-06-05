@@ -1,0 +1,188 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ /* BACKGROUND COLOR*/
+ body {
+  background-color: #E0F1FF; 
+ }
+ 
+ /* STYLE TEXT */
+ 
+ h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 60vh;
+   text-align: center;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   font-family: 'IBM Plex Serif', serif;
+   color: #A45EE5;
+   font-size: 120px;
+   text-shadow: 7px 4px white;
+ }
+ 
+ /* STYLE IMAGES */
+ .bigtitle {
+   color: white;
+   font-size: 120px;
+   text-shadow: 7px 4px #A45EE5;
+ }
+ 
+ #message {
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 40vh;
+   text-align: center;
+   padding-top: 0px;
+   font-family: 'IBM Plex Serif', serif;
+   color:white;
+   text-shadow: 4px 3px black;
+   font-size: 40px;
+ }
+ 
+ .backgroundd{
+   background-image: url("assets/Playing.JPG");
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100%; /*Adjust the gap between sections*/
+ 
+   /*Creates the scrolling effect*/
+   background-attachment: fixed;
+ }
+ 
+ .backgroundd2{
+   background-image: url("assets/Autistic-Children.png");
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100%; /*Adjust the gap between sections*/
+ 
+   /*Creates the scrolling effect*/
+   background-attachment: fixed;
+   width: 100%;
+   height: 75vh;
+ }
+ 
+ .backgroundd3{
+   background-image: url("assets/Autistic Boy.jpg");
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100%; /*Adjust the gap between sections*/
+ 
+   /*Creates the scrolling effect*/
+   background-attachment: fixed;
+   width: 100%;
+   height: 75vh;
+ }
+ 
+ .others {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding-bottom: 50px;
+   text-align: center;
+   background: black;
+   color: white;
+ }
+ 
+ div.texts {
+   padding-top: 50px;
+   font-family: 'Bitter', serif;
+   font-size: 23px; 
+   justify-content: center;
+   text-align: right;
+   padding-left: 150px;
+   padding-right: 100px;
+ } 
+ 
+ .left {
+   text-align: left;
+   font-size: 30px;
+   color: #A45EE5;
+   font-weight: bold;
+ }
+ 
+ .middle {
+   text-align: center;
+   font-size: 30px;
+   color: #A45EE5;
+   font-weight: bold;
+ }
+ 
+ /* STYLE NAV BAR */
+ .nav{
+     background-color: #ABB7FF;
+     overflow: hidden;
+     padding: 1em;
+ }
+ 
+ .nav a{
+     text-align: center;
+   text-decoration: none;
+     color: white;
+     font-size: 1.3em;
+     padding: 1em;
+   font-family: 'Bitter', serif;
+     letter-spacing: 0px;
+ }
+ .nav a:hover{
+     background-color: #BDD5FF;
+ }
+ 
+ .language{
+   float: right;
+   padding: 0em;
+ }
+ 
+ /* STYLE BUTTONS */
+ .factss{
+   justify-content: center;
+   padding-bottom: 90px;
+   background: #ABB7FF;
+   font-family: 'IBM Plex Serif', serif;
+   color: white;
+   padding-left: 150px;
+   padding-right: 250px;
+   text-align: center;
+   font-size: 30px;
+ }
+ 
+ .factss h2{
+   font-size: 60px;
+   padding-top: 50px;
+ }
+ 
+ 
+ #myButton:hover {
+   background-color: white ;
+   color: rgb(123, 143, 255);
+ }
+ 
+ #myButton {
+   background-color: rgb(123, 143, 255);
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   font-family: 'Bitter', serif;
+   transition-duration: 0.4s;
+   border: 2px solid rgb(123, 143, 255);
+ }
+ 
+ #fact {
+   color: #800080;
+ }
+ /* ADD MORE! */ 
